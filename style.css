@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: lightgreen;
+    height: 50px;
+    width: 100%;
+}
+header h3{
+    color: darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100%;
+}
+#footerdiv{
+    color: aliceblue;
+    text-align: center;
+}
+.row{
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    justify-content: space-around;
+    display: flex;
+
+}
+.col{
+    border: 5px ridge rgb(255, 127, 47);
+    margin: 10px;
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+button{
+    background-color: chartreuse;
+}
